@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO HOME PAGE"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        />
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_gravity="left|top"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/img" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_gravity="left|top"
+            android:layout_margin="10dp"
+            android:src="@drawable/img" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/img" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="left|top"
+            android:src="@drawable/img" />
+    </GridLayout>
+
+
+
+</LinearLayout>
